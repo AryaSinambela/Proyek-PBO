@@ -3,7 +3,7 @@ Proyek ini dikembangkan untuk memenuhi tugas besar mata kuliah PBO dengan fokus 
 
 📌 Deskripsi Proyek
 Aplikasi ini dibangun menggunakan bahasa Java dengan mengimplementasikan prinsip-prinsip utama OOP dan integrasi database untuk mengelola data secara dinamis.
-
+``
 🛠️ Stack Teknologi & Konsep Utama
 Proyek ini wajib mengimplementasikan komponen berikut:
 
@@ -14,7 +14,7 @@ Inheritance (Pewarisan): Struktur kelas yang efisien menggunakan konsep parent d
 JDBC (Java Database Connectivity): Koneksi langsung ke database untuk operasi CRUD.
 
 ORM dengan Data Mapper Pattern: Memisahkan logika bisnis (objek) dari logika database (SQL) sehingga kode lebih rapi dan mudah diuji.
-
+```
 📂 Struktur Folder (Rencana)
 ```
 Agar tim tidak bingung, berikut adalah usulan struktur paket (package):
@@ -24,3 +24,38 @@ src/
  ├── repository/     # Logika tambahan untuk akses data
  ├── util/           # Koneksi JDBC (DatabaseConnection.java)
  └── Main.java       # Titik masuk aplikasi
+
+📝 Daftar Tugas (TODO List)
+```
+🔴 Prioritas Utama: JDBC & ORM
+Anggota tim yang memegang bagian ini bertanggung jawab untuk:
+
+[ ] Membuat kelas DatabaseConnection menggunakan Driver JDBC yang sesuai.
+
+[ ] Mendesain skema database (Tabel dan Relasi).
+
+[ ] Mengimplementasikan Data Mapper: Membuat class yang memetakan hasil query database menjadi objek Java.
+
+[ ] Memastikan tidak ada kode SQL yang bercampur di dalam kelas Model.
+
+🟡 Implementasi Objek & JCF
+```
+[ ] Membuat hierarki kelas menggunakan Inheritance.
+
+[ ] Menggunakan JCF untuk menampung data sementara sebelum atau sesudah diambil dari database.
+
+[ ] Validasi data pada setiap fungsi input.
+```
+📅 Timeline & Deadline
+Target Selesai: Week 15
+
+Status Saat Ini: Perancangan Arsitektur & Database
+```
+🤝 Cara Berkontribusi (Workflow Tim)
+Pull: Selalu lakukan git pull origin main sebelum mulai bekerja.
+
+Branch: Kerjakan tugas di branch masing-masing (contoh: feature/jdbc-setup atau feature/model-design).
+
+Commit: Gunakan pesan commit yang deskriptif.
+
+Pull Request: Lakukan PR jika fitur sudah selesai dan mintalah minimal satu rekan tim untuk melakukan review kode.
