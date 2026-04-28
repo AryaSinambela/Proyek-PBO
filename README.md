@@ -14,9 +14,10 @@ Inheritance (Pewarisan): Struktur kelas yang efisien menggunakan konsep parent d
 JDBC (Java Database Connectivity): Koneksi langsung ke database untuk operasi CRUD.
 
 ORM dengan Data Mapper Pattern: Memisahkan logika bisnis (objek) dari logika database (SQL) sehingga kode lebih rapi dan mudah diuji.
+
 ```
 **##📂 Struktur Folder (Rencana)**
-```
+
 Agar tim tidak bingung, berikut adalah usulan struktur paket (package):
 src/
  ├── model/          # Berisi class utama (Plain Old Java Object)
@@ -26,7 +27,7 @@ src/
  └── Main.java       # Titik masuk aplikasi
 ```
 **##📝 Daftar Tugas (TODO List)**
-```
+
 🔴 Prioritas Utama: JDBC & ORM
 Anggota tim yang memegang bagian ini bertanggung jawab untuk:
 
