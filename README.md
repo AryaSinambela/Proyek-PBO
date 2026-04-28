@@ -26,8 +26,9 @@ src/
  ├── util/           # Koneksi JDBC (DatabaseConnection.java)
  └── Main.java       # Titik masuk aplikasi
 ```
+---
 **##📝 Daftar Tugas (TODO List)**
-
+```
 🔴 Prioritas Utama: JDBC & ORM
 Anggota tim yang memegang bagian ini bertanggung jawab untuk:
 
@@ -46,6 +47,7 @@ Anggota tim yang memegang bagian ini bertanggung jawab untuk:
 [2] Menggunakan JCF untuk menampung data sementara sebelum atau sesudah diambil dari database.
 
 [3] Validasi data pada setiap fungsi input.
+
 ```
 
 📅 Timeline & Deadline
