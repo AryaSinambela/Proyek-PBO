@@ -1,8 +1,8 @@
-**#🚀 Proyek Pemrograman Berorientasi Objek (PBO)**
+#🚀 Proyek Pemrograman Berorientasi Objek (PBO)
 ---
 Proyek ini dikembangkan untuk memenuhi tugas besar mata kuliah PBO dengan fokus pada penerapan struktur data, persistensi database, dan pola desain objek yang efisien.
 Membuat suatu program menggunakan bahasa Java dengan mengimplementasikan prinsip-prinsip utama OOP dan integrasi database untuk mengelola data secara dinamis.
----
+
 **##🛠️ Stack Teknologi & Konsep Utama**
 Proyek ini wajib mengimplementasikan komponen berikut:
 
