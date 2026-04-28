@@ -24,7 +24,7 @@ src/
  ├── repository/     # Logika tambahan untuk akses data
  ├── util/           # Koneksi JDBC (DatabaseConnection.java)
  └── Main.java       # Titik masuk aplikasi
-
+```
 **##📝 Daftar Tugas (TODO List)**
 ```
 🔴 Prioritas Utama: JDBC & ORM
@@ -39,7 +39,7 @@ Anggota tim yang memegang bagian ini bertanggung jawab untuk:
 [4] Memastikan tidak ada kode SQL yang bercampur di dalam kelas Model.
 
 🟡 Implementasi Objek & JCF**
-```
+
 [1] Membuat hierarki kelas menggunakan Inheritance.
 
 [2] Menggunakan JCF untuk menampung data sementara sebelum atau sesudah diambil dari database.
