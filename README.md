@@ -1,10 +1,10 @@
 **#🚀 Proyek Pemrograman Berorientasi Objek (PBO)**
 Proyek ini dikembangkan untuk memenuhi tugas besar mata kuliah PBO dengan fokus pada penerapan struktur data, persistensi database, dan pola desain objek yang efisien.
 
-#**📌 Deskripsi Proyek**
+**##📌 Deskripsi Proyek**
 Aplikasi ini dibangun menggunakan bahasa Java dengan mengimplementasikan prinsip-prinsip utama OOP dan integrasi database untuk mengelola data secara dinamis.
 ``
-🛠️ Stack Teknologi & Konsep Utama
+**##🛠️ Stack Teknologi & Konsep Utama**
 Proyek ini wajib mengimplementasikan komponen berikut:
 
 Java Collections Framework (JCF): Digunakan untuk manajemen data di dalam memori (seperti List, Map, atau Set).
@@ -15,7 +15,7 @@ JDBC (Java Database Connectivity): Koneksi langsung ke database untuk operasi CR
 
 ORM dengan Data Mapper Pattern: Memisahkan logika bisnis (objek) dari logika database (SQL) sehingga kode lebih rapi dan mudah diuji.
 ```
-📂 Struktur Folder (Rencana)
+**##📂 Struktur Folder (Rencana)**
 ```
 Agar tim tidak bingung, berikut adalah usulan struktur paket (package):
 src/
@@ -25,27 +25,28 @@ src/
  ├── util/           # Koneksi JDBC (DatabaseConnection.java)
  └── Main.java       # Titik masuk aplikasi
 
-📝 Daftar Tugas (TODO List)
+**##📝 Daftar Tugas (TODO List)**
 ```
 🔴 Prioritas Utama: JDBC & ORM
 Anggota tim yang memegang bagian ini bertanggung jawab untuk:
 
-[ ] Membuat kelas DatabaseConnection menggunakan Driver JDBC yang sesuai.
+[1] Membuat kelas DatabaseConnection menggunakan Driver JDBC yang sesuai.
 
-[ ] Mendesain skema database (Tabel dan Relasi).
+[2] Mendesain skema database (Tabel dan Relasi).
 
-[ ] Mengimplementasikan Data Mapper: Membuat class yang memetakan hasil query database menjadi objek Java.
+[3] Mengimplementasikan Data Mapper: Membuat class yang memetakan hasil query database menjadi objek Java.
 
-[ ] Memastikan tidak ada kode SQL yang bercampur di dalam kelas Model.
+[4] Memastikan tidak ada kode SQL yang bercampur di dalam kelas Model.
 
-🟡 Implementasi Objek & JCF
+🟡 Implementasi Objek & JCF**
 ```
-[ ] Membuat hierarki kelas menggunakan Inheritance.
+[1] Membuat hierarki kelas menggunakan Inheritance.
 
-[ ] Menggunakan JCF untuk menampung data sementara sebelum atau sesudah diambil dari database.
+[2] Menggunakan JCF untuk menampung data sementara sebelum atau sesudah diambil dari database.
 
-[ ] Validasi data pada setiap fungsi input.
+[3] Validasi data pada setiap fungsi input.
 ```
+
 📅 Timeline & Deadline
 Target Selesai: Week 15
 
